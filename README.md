@@ -1,3 +1,3 @@
 # scRNA MDS project
 
-1- Explore individual datasets
+01_explore_individual_datasets => filtering, PCA, UMAP and clustering of a single sample
