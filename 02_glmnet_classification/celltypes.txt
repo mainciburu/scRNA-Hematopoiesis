@@ -1,0 +1,14 @@
+HSC
+LMPP
+GMP
+GMP_Granulocytes
+Monocytes
+pDC
+CLP
+ProB
+T_NK
+MEP
+Megakaryocytes
+Erythroid_early
+Erythroid_late
+Basophils
