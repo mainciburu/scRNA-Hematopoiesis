@@ -4,6 +4,7 @@
   # Differentiation potential
   # Branch probabilities
 
+# Palantir violin plots 
 ##########################
 library(Seurat)
 library(reshape)
@@ -117,3 +118,5 @@ for(i in 1:ncol(branch_prob)){
     theme(text = element_text(face = "bold")) + labs(x = "UMAP 1", y = "UMAP 2"))
   dev.off()
 }
+
+# Palantir violin plots - go to 04_trajectory_analysis/02_palantir/07_palantir_stats.R

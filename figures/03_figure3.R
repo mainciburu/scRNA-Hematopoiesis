@@ -5,17 +5,5 @@
 # Enrichment barplots
 #########################################
 
-library(Seurat)
-library(RColorBrewer)
-library(ggsignif)
-library(ggplot2)
-source("/home/mainciburu/scRNA/colors.r")
-
-################
-young<-readRDS("scRNA/young/seurat_young_v3.rds")
-senior<-readRDS("scRNA/senior/seurat_senior_v4.rds")
-
-
-
-
+# Go to 05_GRN/04_downstream_analysis.R
 
