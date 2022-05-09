@@ -12,3 +12,8 @@ Folders contain the following scripts:
   - 03_integrate_samples_different_condition: integration of young and elderly to create a shared UMAP
   - 04_proportion_test: test for differences in cell type proportion
 
+**02_glmnet_classification:** scripts for the cell type classification method based on GLMnet
+  - 01_binary_models: build classification models for individual cell types
+  - 02_final_classification: assign final cell type labels by comparing the results from the binary models and choosing the one with higher scores.
+
+**03_differential_expression** 
