@@ -43,3 +43,5 @@ Folders contain the following scripts:
   - 03_RSS: calculate regulon specificity score per cell type
   - 04_downstream_analysis: create regulons heatmap based on scenic results and perform term over-representation analysis
   - 05_CytoscapeVisualization: format scenic results for visualization in cytoscape
+
+**figures:** additional scripts to reproduce paper figures.
