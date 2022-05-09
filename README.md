@@ -16,4 +16,13 @@ Folders contain the following scripts:
   - 01_binary_models: build classification models for individual cell types
   - 02_final_classification: assign final cell type labels by comparing the results from the binary models and choosing the one with higher scores.
 
-**03_differential_expression** 
+**03_differential_expression:** differential expression analysis between cell types and conditions and subsequent GSEA
+  - 01_differential_expression: script to perform differential expression
+  - 02_GSEA_young_elderly: GSEA for differential expression between young and elderly and plot results
+  - 03_GSEA_young_elderly_mds: GSEA for differential expression between MDS and both young and elderly and plot results
+
+**04_trajectory_analysis:** scripts to perform trajectory inference with Stream and Palantir and downstream analysis
+  - **01_stream:** scripts for Stream
+      - GenerateData: prepare data to run Stream
+      - Stream: run Stream on young samples and project elderly samples on the resulting trajectory
+  - **02_palantir:** scripts for Palantir  
