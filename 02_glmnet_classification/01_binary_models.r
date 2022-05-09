@@ -1,5 +1,4 @@
 # Create model for a specific cell type 
-# Cell type is specified in the .sbs file
 # output: matrix with predictions per cell and iteration + average prediction
 #         pdf plots of prediction probabilities + binary labels + table original classification vs predictions
 
