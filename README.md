@@ -26,3 +26,20 @@ Folders contain the following scripts:
       - GenerateData: prepare data to run Stream
       - Stream: run Stream on young samples and project elderly samples on the resulting trajectory
   - **02_palantir:** scripts for Palantir  
+      - 01_seurat_to_loom: prepare data to run Palantir
+      - 02_palantir_young: run Palantir on young samples
+      - 03_knn_final_cells: find knn cells in elderly samples to use as final states in Palantir
+      - 04_palantir_elderly: run Palantir on elderly samples
+      - 05_palantir_mds: run Palantir on elderly samples
+      - 06_palantir_stats: test for differences in Palantir results between young and elderly
+      - 07_compute_gene_trends_script: run Palantir gene trends 
+      - 08_read_trends_and_cluster: cluster gene trends
+      - 09_monocyte_analysis: downstream analysis for the comparison of monocytes branch in young and elderly
+      - 10_erythroid_analysis: downstream analysis for the comparison of erythroid branch in young, elderly and MDS
+
+**05_GRN:** gene regulatory networks analysis
+  - 01_GenerateData: prepare data for scenic
+  - 02_pyscenic: run python implementation of scenic
+  - 03_RSS: calculate regulon specificity score per cell type
+  - 04_downstream_analysis: create regulons heatmap based on scenic results and perform term over-representation analysis
+  - 05_CytoscapeVisualization: format scenic results for visualization in cytoscape
