@@ -1,6 +1,6 @@
 # scRNA analysis of hematopoiesis in aging and disease
 
-This repository contains the scripts used for the analysis shown in **Uncovering perturbations in human hematopoiesis associated with healthy aging and myeloid malignancies at single cell resolution**.
+This repository contains the scripts used for the analysis shown in **Uncovering perturbations in human hematopoiesis associated with healthy aging and myeloid malignancies at single cell resolution**. Available [here](https://elifesciences.org/articles/79363).
 
 Folders contain the following scripts: 
 
@@ -45,3 +45,5 @@ Folders contain the following scripts:
   - 05_CytoscapeVisualization: format scenic results for visualization in cytoscape
 
 **figures:** additional scripts to reproduce paper figures.
+
+**metadata:** UMAP coordinates and cell type annotation for every cell.
